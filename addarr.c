@@ -32,14 +32,14 @@ void main()
     }
 
     printf("\n\n=============== After Addition ============ \n");                                            
-    for(i=0/*1*/;i<3;i++)                            
+    for(i=0;i<3;i++)                            
     {          
         sum = 0;                                             
-        for (j = 0/**/; j < 3; j++)                  
-        {   //                1  0
+        for (j = 0; j < 3; j++)                  
+        {   
             printf("%d\t",add[i][j]);
-            //          6        4
-            sum/*1+2+3+6*/ = sum + add[i][j];
+                 
+            sum = sum + add[i][j];
         }
         printf("=\t%d",sum);
         printf("\n");
