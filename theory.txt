@@ -2,6 +2,8 @@ C language basic to advanced topics :
 
 c language all topic overview with only definitions:
     1. data types:
+        - how many types of data types?
+            - there are 32 types of data types.
         - what is data type?
             - A data type is a classification that specifies the type of data a variable can hold, such as integer, floating-point, character, etc.
     2. variables:

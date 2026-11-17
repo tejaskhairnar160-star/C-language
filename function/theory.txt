@@ -1,0 +1,41 @@
+7. user define functions:
+        - what is a UDF function?
+            - A UDF function is a block of code that performs a specific task and can 
+              be called from other parts of the program.
+        
+        - why use UDF function in c?
+            - We use functions in C to break a large program into smaller, reusable blocks of code.
+            
+        - how many types of function?
+            - there are 4 types of function.
+                1. without arguament and without return value
+                    it is compulsory return type write void.
+                    - syntax :
+                        return_type function_name ()
+                        {
+                            code;
+                        }
+
+                2. with arguament and without return value
+                    it is compulsory return type write void.
+                    - syntax : 
+                        return_type function_name (data_type value)
+                        {
+                            code;
+                        }
+
+                3. without arguament and with return value
+                    - syntax : 
+                        return_type function_name ()
+                        {
+                            code;
+                            return any_value;
+                        }
+ 
+                4. with arguament and with return value
+                    - syntax : 
+                        return_type function_name (data_type value)
+                        {
+                            code;
+                            return any_value;
+                        }
